@@ -1,0 +1,10 @@
+{
+  "name": "SBC Vocational Cooperative",
+  "install": "npm install",
+  "terminals": [
+    {
+      "name": "preview",
+      "command": "npm run preview"
+    }
+  ]
+}

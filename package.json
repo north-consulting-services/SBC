@@ -1,0 +1,18 @@
+{
+  "name": "sbc-vocational-cooperative",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Docs and asset tooling for the SBC Vocational Cooperative staging workspace.",
+  "type": "module",
+  "scripts": {
+    "lint": "markdownlint-cli2 \"**/*.md\" \"#node_modules\"",
+    "render": "node scripts/render-assets.mjs",
+    "render:check": "node scripts/render-assets.mjs --check",
+    "check": "npm run lint && npm run render:check",
+    "preview": "node scripts/preview-server.mjs"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "^0.14.0",
+    "sharp": "^0.33.5"
+  }
+}
