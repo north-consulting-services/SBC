@@ -6,6 +6,10 @@ Staging workspace for Strasburg Baptist Church’s **SBC Vocational Cooperative*
 
 Prospective recipients will apply via **Typeform**. Strategy / explainer materials for the planning team live in this repo until published elsewhere.
 
+## Ministry team leader survey
+
+Typeform draft for ministry / volunteer team leaders (roster, communication tools, meeting cadence, pain points, what’s working): [`notes/ministry-team-leader-survey.md`](notes/ministry-team-leader-survey.md).
+
 ## Process ceremony
 
 Working overview for the planning team: Applications → Sponsor meetings → Present to board → Decline with notes **or** Reviews with Elders → Final decision (after announcements and recruitment begin).
