@@ -13,48 +13,43 @@ After **announcements** are made and the **recruitment strategy** has begun.
 
 ## Flow
 
-1. **Applications** — Prospective recipients submit applications via **Typeform**.
-2. **Sponsor meetings** — The board assigns a **Sponsor** (a person from the board) to:
-   - Meet with the applicant
-   - Ask questions and understand the request
-   - Develop a support plan and supporting docs
-   - Prepare the case for board presentation
-3. **Present to board** — Sponsor presents the applicant and support plan to the board.
-4. **Board path** — One of:
-   - **Path A — Board declines with notes** — Board declines and records notes (feedback / rationale)
-   - **Reviews with Elders** — Board takes the case to the Elders for review
-5. **After Elder review** — One of:
-   - **Path B — Approved / award money** — Award funds and assign Sponsor / Board cadence of review meetings
-   - **Path C — Elders decline with notes** — Elders decline and record notes
+Main spine (left → right):
+
+1. **Applications** — Prospective recipients submit via **Typeform**
+2. **Sponsor meetings** — Board assigns a Sponsor; meet, plan, prepare docs
+3. **Present to board** — Sponsor presents the applicant and plan
+4. **Reviews with Elders** — Elder evaluation
+5. **Path B — Approved / award money** — Assign Sponsor / Board cadence of review meetings
+
+Side exits:
+
+- **Path A** (after Present to Board) — Board declines with notes
+- **Path C** (after Reviews with Elders) — Elders decline with notes
 
 ```mermaid
 flowchart LR
-  pre[Announcements and recruitment begun]
-  apps[Applications]
-  sponsor[Sponsor meetings]
-  present[Present to board]
-  pathA[Path A Board declines with notes]
-  elders[Reviews with Elders]
+  apps[1 Applications]
+  sponsor[2 Sponsor Meetings]
+  present[3 Present to Board]
+  elders[4 Reviews with Elders]
   pathB[Path B Approved award and review cadence]
+  pathA[Path A Board declines with notes]
   pathC[Path C Elders decline with notes]
 
-  pre --> apps --> sponsor --> present
+  apps --> sponsor --> present --> elders --> pathB
   present --> pathA
-  present --> elders
-  elders --> pathB
   elders --> pathC
 ```
 
 ## Sponsor role (board member)
 
 - Assigned by the board to a specific applicant
-- Owns discovery: questions, understanding need and path (trade / family craft / college)
+- Owns discovery: questions, understanding need and path
 - Produces support plan and docs ready for board
 - Presents to the board
 - On Path B approval: continues with a cadence of review meetings with the board
 
 ## Open questions
 
-- After a decline with notes (Path A or C): is the applicant/sponsor expected to revise and re-enter, or is that a terminal outcome for the cycle?
-- Timing: how the committee “X week” review from the initial proposal maps onto Sponsor meetings vs. board / Elder stages
-- What the Sponsor / Board review-meeting cadence looks like after award (frequency, duration, reporting)
+- After a decline with notes (Path A or C): revise/re-enter, or terminal for the cycle?
+- What the Sponsor / Board review-meeting cadence looks like after award
