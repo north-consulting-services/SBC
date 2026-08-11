@@ -18,9 +18,9 @@ Latest Elder source: **SBC Scholarship and Business-Startup Program (S&BSP)** (2
 - PDF: [`assets/sbc-scholarship-and-business-startup-program-20260725.pdf`](assets/sbc-scholarship-and-business-startup-program-20260725.pdf)
 - Intake: [`notes/elders/_template.md`](notes/elders/_template.md) · [`notes/README.md`](notes/README.md)
 
-## Process ceremony
+## Process overview
 
-Working overview for the planning team: Applications → Sponsor meetings → Present to board → Decline with notes **or** Reviews with Elders → Final decision (after announcements and recruitment begin).
+Working overview for the planning team: Applications → Sponsor meetings → Present to board → Path A (board declines) **or** Reviews with Elders → Path B (approved / award + review cadence) **or** Path C (Elders decline).
 
 - Note: [`notes/process-ceremony-overview.md`](notes/process-ceremony-overview.md)
 - Shareable graphic: [`assets/process-ceremony-overview-ltr.png`](assets/process-ceremony-overview-ltr.png) · [`assets/process-ceremony-overview.svg`](assets/process-ceremony-overview.svg)

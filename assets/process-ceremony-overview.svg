@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720" role="img" aria-labelledby="title desc">
-  <title id="title">SBC Scholarship and Business-Startup Program (S&amp;BSP) - Process Ceremony Overview</title>
-  <desc id="desc">Left-to-right flow: Applications, Sponsor Meetings, Present to Board, then Decline with Notes or Reviews with Elders to Final Decision.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="780" viewBox="0 0 1900 780" role="img" aria-labelledby="title desc">
+  <title id="title">SBC Scholarship and Business-Startup Program (S&amp;BSP) - Process Overview</title>
+  <desc id="desc">Left-to-right flow: Applications, Sponsor Meetings, Present to Board, then Board Declines (Path A) or Reviews with Elders, which splits to Approved with review cadence (Path B) or Elders Decline (Path C).</desc>
 
   <defs>
     <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
@@ -12,83 +12,103 @@
     </filter>
   </defs>
 
-  <rect width="1600" height="720" fill="#f8fafc"/>
+  <rect width="1900" height="780" fill="#f8fafc"/>
 
   <!-- Left-aligned title -->
-  <text x="56" y="56" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#64748b" letter-spacing="1.5">SBC SCHOLARSHIP AND BUSINESS-STARTUP PROGRAM (S&amp;BSP)</text>
-  <text x="56" y="96" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="32" font-weight="700" fill="#0f172a">Process Ceremony Overview</text>
+  <text x="48" y="52" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#64748b" letter-spacing="1.5">SBC SCHOLARSHIP AND BUSINESS-STARTUP PROGRAM (S&amp;BSP)</text>
+  <text x="48" y="92" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="32" font-weight="700" fill="#0f172a">Process Overview</text>
 
-  <!-- Prerequisite pill under title -->
-  <rect x="56" y="120" width="520" height="40" rx="20" fill="#f1f5f9"/>
-  <circle cx="84" cy="140" r="5" fill="#0f172a"/>
-  <text x="100" y="145" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#334155">After announcements  ·  Recruitment underway</text>
+  <!-- Prerequisite pill -->
+  <rect x="48" y="116" width="520" height="40" rx="20" fill="#f1f5f9"/>
+  <circle cx="76" cy="136" r="5" fill="#0f172a"/>
+  <text x="92" y="141" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#334155">After announcements  ·  Recruitment underway</text>
 
-  <!-- Horizontal flow baseline y ~ 360 for step cards -->
   <!-- Step 1 -->
   <g filter="url(#card)">
-    <rect x="56" y="240" width="280" height="200" rx="16" fill="#ffffff"/>
+    <rect x="48" y="250" width="240" height="200" rx="16" fill="#ffffff"/>
   </g>
-  <circle cx="96" cy="284" r="16" fill="#0f172a"/>
-  <text x="96" y="289" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">1</text>
-  <text x="124" y="278" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="1.5">STEP</text>
-  <text x="124" y="302" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">Applications</text>
-  <text x="80" y="348" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">Prospective recipients</text>
-  <text x="80" y="370" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">submit applications.</text>
+  <circle cx="84" cy="294" r="16" fill="#0f172a"/>
+  <text x="84" y="299" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">1</text>
+  <text x="112" y="288" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="1.5">STEP</text>
+  <text x="112" y="312" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#0f172a">Applications</text>
+  <text x="72" y="358" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">Prospective recipients</text>
+  <text x="72" y="380" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">submit applications.</text>
 
-  <!-- Arrow 1 -> 2 -->
-  <line x1="336" y1="340" x2="376" y2="340" stroke="#cbd5e1" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="288" y1="350" x2="320" y2="350" stroke="#cbd5e1" stroke-width="2" marker-end="url(#arrow)"/>
 
   <!-- Step 2 -->
   <g filter="url(#card)">
-    <rect x="384" y="220" width="320" height="240" rx="16" fill="#ffffff"/>
+    <rect x="328" y="230" width="270" height="240" rx="16" fill="#ffffff"/>
   </g>
-  <circle cx="424" cy="264" r="16" fill="#0f172a"/>
-  <text x="424" y="269" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">2</text>
-  <text x="452" y="258" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="1.5">STEP</text>
-  <text x="452" y="282" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">Sponsor Meetings</text>
-  <text x="408" y="324" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">Board assigns a Sponsor</text>
-  <text x="408" y="346" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">Meet · Ask questions</text>
-  <text x="408" y="368" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">Understand need</text>
-  <text x="408" y="390" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">Support plan &amp; docs</text>
-  <text x="408" y="412" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">Ready to present</text>
+  <circle cx="364" cy="274" r="16" fill="#0f172a"/>
+  <text x="364" y="279" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">2</text>
+  <text x="392" y="268" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="1.5">STEP</text>
+  <text x="392" y="292" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#0f172a">Sponsor Meetings</text>
+  <text x="352" y="334" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">Board assigns a Sponsor</text>
+  <text x="352" y="356" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">Meet · Ask questions</text>
+  <text x="352" y="378" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">Understand need</text>
+  <text x="352" y="400" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">Support plan &amp; docs</text>
+  <text x="352" y="422" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">Ready to present</text>
 
-  <!-- Arrow 2 -> 3 -->
-  <line x1="704" y1="340" x2="744" y2="340" stroke="#cbd5e1" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="598" y1="350" x2="630" y2="350" stroke="#cbd5e1" stroke-width="2" marker-end="url(#arrow)"/>
 
   <!-- Step 3 -->
   <g filter="url(#card)">
-    <rect x="752" y="240" width="280" height="200" rx="16" fill="#ffffff"/>
+    <rect x="638" y="250" width="240" height="200" rx="16" fill="#ffffff"/>
   </g>
-  <circle cx="792" cy="284" r="16" fill="#0f172a"/>
-  <text x="792" y="289" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">3</text>
-  <text x="820" y="278" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="1.5">STEP</text>
-  <text x="820" y="302" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">Present to Board</text>
-  <text x="776" y="348" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">Sponsor presents the</text>
-  <text x="776" y="370" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">applicant and plan.</text>
+  <circle cx="674" cy="294" r="16" fill="#0f172a"/>
+  <text x="674" y="299" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#ffffff">3</text>
+  <text x="702" y="288" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="1.5">STEP</text>
+  <text x="702" y="312" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#0f172a">Present to Board</text>
+  <text x="662" y="358" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">Sponsor presents the</text>
+  <text x="662" y="380" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">applicant and plan.</text>
 
-  <!-- Fork connectors to Path A / Path B -->
-  <line x1="1032" y1="340" x2="1080" y2="340" stroke="#cbd5e1" stroke-width="2"/>
-  <line x1="1080" y1="280" x2="1080" y2="400" stroke="#cbd5e1" stroke-width="2"/>
-  <line x1="1080" y1="280" x2="1120" y2="280" stroke="#cbd5e1" stroke-width="2" marker-end="url(#arrow)"/>
-  <line x1="1080" y1="400" x2="1120" y2="400" stroke="#cbd5e1" stroke-width="2" marker-end="url(#arrow)"/>
+  <!-- Fork from board to Path A / Elders -->
+  <line x1="878" y1="350" x2="914" y2="350" stroke="#cbd5e1" stroke-width="2"/>
+  <line x1="914" y1="250" x2="914" y2="470" stroke="#cbd5e1" stroke-width="2"/>
+  <line x1="914" y1="250" x2="948" y2="250" stroke="#cbd5e1" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="914" y1="470" x2="948" y2="470" stroke="#cbd5e1" stroke-width="2" marker-end="url(#arrow)"/>
 
-  <!-- Path A (top) -->
+  <!-- Path A -->
   <g filter="url(#card)">
-    <rect x="1128" y="220" width="416" height="120" rx="16" fill="#ffffff"/>
+    <rect x="956" y="190" width="360" height="120" rx="16" fill="#ffffff"/>
   </g>
-  <rect x="1128" y="220" width="6" height="120" rx="3" fill="#f59e0b"/>
-  <text x="1160" y="262" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#d97706" letter-spacing="1.5">PATH A</text>
-  <text x="1160" y="296" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#0f172a">Board Declines with Notes</text>
+  <rect x="956" y="190" width="6" height="120" rx="3" fill="#f59e0b"/>
+  <text x="988" y="232" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#d97706" letter-spacing="1.5">PATH A</text>
+  <text x="988" y="266" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Board Declines with Notes</text>
 
-  <!-- Path B (bottom) -->
+  <!-- Reviews with Elders (gateway from board) -->
   <g filter="url(#card)">
-    <rect x="1128" y="360" width="416" height="120" rx="16" fill="#ffffff"/>
+    <rect x="956" y="410" width="280" height="120" rx="16" fill="#ffffff"/>
   </g>
-  <rect x="1128" y="360" width="6" height="120" rx="3" fill="#10b981"/>
-  <text x="1160" y="402" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#059669" letter-spacing="1.5">PATH B</text>
-  <text x="1160" y="430" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Reviews with Elders</text>
-  <text x="1160" y="456" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">→ Final Decision</text>
+  <rect x="956" y="410" width="6" height="120" rx="3" fill="#0f172a"/>
+  <text x="988" y="452" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#64748b" letter-spacing="1.5">NEXT</text>
+  <text x="988" y="486" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Reviews with Elders</text>
+
+  <!-- Fork from Elders to Path B / Path C -->
+  <line x1="1236" y1="470" x2="1270" y2="470" stroke="#cbd5e1" stroke-width="2"/>
+  <line x1="1270" y1="370" x2="1270" y2="580" stroke="#cbd5e1" stroke-width="2"/>
+  <line x1="1270" y1="370" x2="1304" y2="370" stroke="#cbd5e1" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="1270" y1="580" x2="1304" y2="580" stroke="#cbd5e1" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Path B: Approved -->
+  <g filter="url(#card)">
+    <rect x="1312" y="300" width="540" height="140" rx="16" fill="#ffffff"/>
+  </g>
+  <rect x="1312" y="300" width="6" height="140" rx="3" fill="#10b981"/>
+  <text x="1344" y="338" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#059669" letter-spacing="1.5">PATH B</text>
+  <text x="1344" y="370" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Approved / Award Money</text>
+  <text x="1344" y="400" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#64748b">Assign Sponsor / Board cadence</text>
+  <text x="1344" y="422" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#64748b">of review meetings</text>
+
+  <!-- Path C: Elders Decline -->
+  <g filter="url(#card)">
+    <rect x="1312" y="520" width="540" height="120" rx="16" fill="#ffffff"/>
+  </g>
+  <rect x="1312" y="520" width="6" height="120" rx="3" fill="#f59e0b"/>
+  <text x="1344" y="562" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#d97706" letter-spacing="1.5">PATH C</text>
+  <text x="1344" y="596" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Elders Decline with Notes</text>
 
   <!-- Footer -->
-  <text x="56" y="680" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#94a3b8">Strasburg Baptist Church  ·  Planning team  ·  Working draft</text>
+  <text x="48" y="740" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#94a3b8">Strasburg Baptist Church  ·  Planning team  ·  Working draft</text>
 </svg>

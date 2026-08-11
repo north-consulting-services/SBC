@@ -1,7 +1,7 @@
-# Process Ceremony Overview
+# Process Overview
 
 **Program:** SBC Scholarship and Business-Startup Program (S&BSP)  
-**Date captured:** 2026-07-24 · **Updated:** 2026-08-11 (program name aligned with Typeform)  
+**Date captured:** 2026-07-24 · **Updated:** 2026-08-11  
 **Status:** Working process note for planning team  
 **Graphic:** [`assets/process-ceremony-overview-ltr.png`](../assets/process-ceremony-overview-ltr.png) · [`assets/process-ceremony-overview.svg`](../assets/process-ceremony-overview.svg)
 
@@ -11,7 +11,7 @@
 
 After **announcements** are made and the **recruitment strategy** has begun.
 
-## Ceremony flow
+## Flow
 
 1. **Applications** — Prospective recipients submit applications via **Typeform**.
 2. **Sponsor meetings** — The board assigns a **Sponsor** (a person from the board) to:
@@ -21,23 +21,28 @@ After **announcements** are made and the **recruitment strategy** has begun.
    - Prepare the case for board presentation
 3. **Present to board** — Sponsor presents the applicant and support plan to the board.
 4. **Board path** — One of:
-   - **Declines with notes** — Board declines and records notes (feedback / rationale)
+   - **Path A — Board declines with notes** — Board declines and records notes (feedback / rationale)
    - **Reviews with Elders** — Board takes the case to the Elders for review
-5. **Final decision** — Decision is finalized (following Elder review when that path is taken)
+5. **After Elder review** — One of:
+   - **Path B — Approved / award money** — Award funds and assign Sponsor / Board cadence of review meetings
+   - **Path C — Elders decline with notes** — Elders decline and record notes
 
 ```mermaid
-flowchart TD
+flowchart LR
   pre[Announcements and recruitment begun]
   apps[Applications]
   sponsor[Sponsor meetings]
   present[Present to board]
-  decline[Board declines with notes]
+  pathA[Path A Board declines with notes]
   elders[Reviews with Elders]
-  final[Final decision]
+  pathB[Path B Approved award and review cadence]
+  pathC[Path C Elders decline with notes]
 
   pre --> apps --> sponsor --> present
-  present --> decline
-  present --> elders --> final
+  present --> pathA
+  present --> elders
+  elders --> pathB
+  elders --> pathC
 ```
 
 ## Sponsor role (board member)
@@ -46,9 +51,10 @@ flowchart TD
 - Owns discovery: questions, understanding need and path (trade / family craft / college)
 - Produces support plan and docs ready for board
 - Presents to the board
+- On Path B approval: continues with a cadence of review meetings with the board
 
 ## Open questions
 
-- After a decline with notes: is the applicant/sponsor expected to revise and re-enter, or is that a terminal outcome for the cycle?
-- Does every approval path require Elder review, or only when the board escalates?
+- After a decline with notes (Path A or C): is the applicant/sponsor expected to revise and re-enter, or is that a terminal outcome for the cycle?
 - Timing: how the committee “X week” review from the initial proposal maps onto Sponsor meetings vs. board / Elder stages
+- What the Sponsor / Board review-meeting cadence looks like after award (frequency, duration, reporting)
