@@ -20,7 +20,7 @@ Latest Elder source: **SBC Scholarship and Business-Startup Program (S&BSP)** (2
 
 ## Process overview
 
-Working overview for the planning team: Applications → Sponsor meetings → Present to board → Path A (board declines) **or** Reviews with Elders → Path B (approved / award + review cadence) **or** Path C (Elders decline).
+Working overview for the planning team: Applications → Sponsor meetings → Present to board → Path A (board declines) **or** Path B (Reviews with Elders) → Approved / award + review cadence **or** Path C (Elders decline).
 
 - Note: [`notes/process-ceremony-overview.md`](notes/process-ceremony-overview.md)
 - Shareable graphic: [`assets/process-ceremony-overview-ltr.png`](assets/process-ceremony-overview-ltr.png) · [`assets/process-ceremony-overview.svg`](assets/process-ceremony-overview.svg)
