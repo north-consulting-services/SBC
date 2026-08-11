@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720" role="img" aria-labelledby="title desc">
-  <title id="title">SBC Vocational Cooperative - Process Ceremony Overview</title>
+  <title id="title">SBC Scholarship and Business-Startup Program (S&amp;BSP) - Process Ceremony Overview</title>
   <desc id="desc">Left-to-right flow: Applications, Sponsor Meetings, Present to Board, then Decline with Notes or Reviews with Elders to Final Decision.</desc>
 
   <defs>
@@ -15,7 +15,7 @@
   <rect width="1600" height="720" fill="#f8fafc"/>
 
   <!-- Left-aligned title -->
-  <text x="56" y="56" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#64748b" letter-spacing="3">SBC VOCATIONAL COOPERATIVE</text>
+  <text x="56" y="56" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#64748b" letter-spacing="1.5">SBC SCHOLARSHIP AND BUSINESS-STARTUP PROGRAM (S&amp;BSP)</text>
   <text x="56" y="96" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="32" font-weight="700" fill="#0f172a">Process Ceremony Overview</text>
 
   <!-- Prerequisite pill under title -->

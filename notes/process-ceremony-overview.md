@@ -1,6 +1,7 @@
 # Process Ceremony Overview
 
-**Date captured:** 2026-07-24  
+**Program:** SBC Scholarship and Business-Startup Program (S&BSP)  
+**Date captured:** 2026-07-24 · **Updated:** 2026-08-11 (program name aligned with Typeform)  
 **Status:** Working process note for planning team  
 **Graphic:** [`assets/process-ceremony-overview-ltr.png`](../assets/process-ceremony-overview-ltr.png) · [`assets/process-ceremony-overview.svg`](../assets/process-ceremony-overview.svg)
 
