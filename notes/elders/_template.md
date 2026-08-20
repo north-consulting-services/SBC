@@ -8,20 +8,20 @@
 
 ## Track feedback
 
-### Higher education / college
+### Trades / business (young men)
 -
 
-### Crafts / trades / certifications
+### Family-serving crafts / trades (young women)
 -
 
-### Entrepreneurship / business startup
+### College
 -
 
 ## Eligibility
 
 -
 
-## Process, evaluation board, mentoring
+## Process, committee, mentoring
 
 -
 
