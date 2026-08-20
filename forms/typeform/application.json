@@ -1,0 +1,214 @@
+{
+  "title": "SBC Scholarship and Business-Startup Program (S&BSP) Application",
+  "type": "form",
+  "settings": {
+    "language": "en",
+    "is_public": true,
+    "progress_bar": "proportion",
+    "show_progress_bar": true,
+    "show_typeform_branding": false,
+    "meta": {
+      "title": "SBC Scholarship and Business-Startup Program (S&BSP) Application",
+      "allow_indexing": false,
+      "description": "Application for the Strasburg Baptist Church Scholarship and Business-Startup Program (S&BSP)."
+    }
+  },
+  "welcome_screens": [
+    {
+      "ref": "welcome",
+      "title": "SBC Scholarship and Business-Startup Program (S&BSP)",
+      "properties": {
+        "description": "Strasburg Baptist Church walks beside young members as they enter trades, build family-serving skills, start businesses, or pursue approved college paths.\n\nThis application begins the process. After you submit, a board Sponsor may meet with you to understand your request and prepare a support plan for the board.",
+        "show_button": true,
+        "button_text": "Begin application"
+      },
+      "attachment": {
+        "type": "image",
+        "href": "{{LOGO_IMAGE_URL}}",
+        "properties": {
+          "description": "Strasburg Baptist Church logo"
+        }
+      }
+    }
+  ],
+  "thankyou_screens": [
+    {
+      "ref": "thankyou",
+      "title": "Thank you — your application was received",
+      "properties": {
+        "show_button": false,
+        "share_icons": false,
+        "description": "A board Sponsor may reach out next to schedule a meeting. Please keep watching your email. If you have questions, contact Strasburg Baptist Church."
+      }
+    }
+  ],
+  "fields": [
+    {
+      "ref": "full_name",
+      "title": "What is your full name?",
+      "type": "short_text",
+      "validations": { "required": true },
+      "properties": { "description": "Legal first and last name." }
+    },
+    {
+      "ref": "email",
+      "title": "What is the best email to reach you?",
+      "type": "email",
+      "validations": { "required": true }
+    },
+    {
+      "ref": "phone",
+      "title": "What is your phone number?",
+      "type": "phone_number",
+      "validations": { "required": true },
+      "properties": { "default_country_code": "US" }
+    },
+    {
+      "ref": "age",
+      "title": "How old are you?",
+      "type": "number",
+      "validations": { "required": true, "min_value": 16, "max_value": 24 },
+      "properties": { "description": "Applicants must be ages 16–24." }
+    },
+    {
+      "ref": "sbc_member",
+      "title": "Are you a member of Strasburg Baptist Church?",
+      "type": "yes_no",
+      "validations": { "required": true },
+      "properties": { "description": "Membership at SBC is required to apply." }
+    },
+    {
+      "ref": "track",
+      "title": "Which path are you applying for?",
+      "type": "multiple_choice",
+      "validations": { "required": true },
+      "properties": {
+        "description": "Choose the track that best fits your request.",
+        "allow_multiple_selection": false,
+        "randomize": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          { "ref": "trades_business", "label": "Trades or starting a business" },
+          { "ref": "family_crafts", "label": "Family-serving crafts or trades (tools, equipment, training)" },
+          { "ref": "college", "label": "College / field of study" }
+        ]
+      }
+    },
+    {
+      "ref": "field_of_study",
+      "title": "What is your intended field of study?",
+      "type": "short_text",
+      "validations": { "required": true },
+      "properties": {
+        "description": "Required for the college track. Elders review alignment with SBC’s culture and purpose."
+      }
+    },
+    {
+      "ref": "plan_summary",
+      "title": "Briefly describe what you are pursuing and how this support would help.",
+      "type": "long_text",
+      "validations": { "required": true },
+      "properties": {
+        "description": "Trade, business, craft/equipment, or college path — and the need."
+      }
+    },
+    {
+      "ref": "school_or_program",
+      "title": "Where will you train, work, or study? (school, program, employer, or apprenticeship)",
+      "type": "short_text",
+      "validations": { "required": false }
+    },
+    {
+      "ref": "amount_requested",
+      "title": "About how much funding are you requesting?",
+      "type": "short_text",
+      "validations": { "required": true },
+      "properties": {
+        "description": "Awards vary based on need. Approximate dollar amount is fine."
+      }
+    },
+    {
+      "ref": "use_of_funds",
+      "title": "How would you use the funds?",
+      "type": "long_text",
+      "validations": { "required": true },
+      "properties": {
+        "description": "Be specific (tuition, tools, equipment, training costs, startup costs, etc.)."
+      }
+    },
+    {
+      "ref": "need_essay",
+      "title": "Share your written request — why do you need this scholarship, and how will it help you grow?",
+      "type": "long_text",
+      "validations": { "required": true },
+      "properties": {
+        "description": "This is your need essay for the committee and board."
+      }
+    },
+    {
+      "ref": "mentoring",
+      "title": "Are you willing to meet with a Sponsor and participate in mentoring / accountable use of funds?",
+      "type": "yes_no",
+      "validations": { "required": true }
+    },
+    {
+      "ref": "recommendation_1",
+      "title": "Upload a character recommendation letter (1 of 1–2).",
+      "type": "file_upload",
+      "validations": { "required": true },
+      "properties": {
+        "description": "From family or friends regarding your character. PDF or image preferred."
+      }
+    },
+    {
+      "ref": "recommendation_2",
+      "title": "Upload a second recommendation letter (optional).",
+      "type": "file_upload",
+      "validations": { "required": false },
+      "properties": {
+        "description": "Optional second letter from family or friends."
+      }
+    },
+    {
+      "ref": "additional_notes",
+      "title": "Anything else the board or your Sponsor should know?",
+      "type": "long_text",
+      "validations": { "required": false }
+    }
+  ],
+  "logic": [
+    {
+      "type": "field",
+      "ref": "track",
+      "actions": [
+        {
+          "action": "jump",
+          "details": {
+            "to": { "type": "field", "value": "plan_summary" }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              { "type": "field", "value": "track" },
+              { "type": "choice", "value": "trades_business" }
+            ]
+          }
+        },
+        {
+          "action": "jump",
+          "details": {
+            "to": { "type": "field", "value": "plan_summary" }
+          },
+          "condition": {
+            "op": "is",
+            "vars": [
+              { "type": "field", "value": "track" },
+              { "type": "choice", "value": "family_crafts" }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
