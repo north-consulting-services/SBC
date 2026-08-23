@@ -17,7 +17,7 @@ You can also paste emailed notes into a new Markdown file in `elders/` — prefe
 |------|---------|
 | [`elders/2026-proposed-scholarship-program.md`](elders/2026-proposed-scholarship-program.md) | Initial typed proposal + handwritten committee/mentoring notes |
 | [`elders/2026-07-25-scholarship-and-business-startup-program.md`](elders/2026-07-25-scholarship-and-business-startup-program.md) | Elder S&BSP overview (PDF 2026-07-25): tracks, twice-yearly cycle, criteria, $15k seed |
-| [`process-ceremony-overview.md`](process-ceremony-overview.md) | Process Overview: Applications → Sponsor → Board → Path A or Path B (Elders) → Approve or Path C |
+| [`process-ceremony-overview.md`](process-ceremony-overview.md) | Process Overview: PATH A happy path; PATH B/C/D orange declines (Sponsor / Board / Elders) |
 | [`typeform-application.md`](typeform-application.md) | Live Typeform link, questions, logo source |
 
 ## Drafting note
