@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1900" height="860" viewBox="0 0 1900 860" role="img" aria-labelledby="title desc">
   <title id="title">SBC Scholarship and Business-Startup Program (S&amp;BSP) - Process Overview</title>
-  <desc id="desc">PATH A happy path across the top. Decline exits underneath with orange accent: PATH B Sponsor Declines after Sponsor Meetings, PATH C Board Declines after Present to Board, PATH D Elders Decline after Reviews with Elders.</desc>
+  <desc id="desc">PATH A happy path: Applications, Sponsor Meetings, Present to Board, Board reviews with Elders, Award Money + Ongoing Check-Ins. Decline exits underneath: PATH B Sponsor Declines, PATH C Board Declines, PATH D Elders Decline.</desc>
 
   <defs>
     <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
@@ -37,7 +37,7 @@
   <text x="80" y="265" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff">1</text>
   <text x="106" y="255" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="1.2">STEP</text>
   <text x="106" y="278" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Applications</text>
-  <text x="72" y="324" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">Submit via Typeform</text>
+  <text x="72" y="324" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">Submit via web form</text>
 
   <line x1="268" y1="300" x2="300" y2="300" stroke="#cbd5e1" stroke-width="2" marker-end="url(#arrow)"/>
 
@@ -75,7 +75,7 @@
   <line x1="892" y1="300" x2="924" y2="300" stroke="#cbd5e1" stroke-width="2" marker-end="url(#arrow)"/>
   <line x1="892" y1="300" x2="892" y2="520" stroke="#f59e0b" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arrow-orange)"/>
 
-  <!-- Step 4 Reviews with Elders -->
+  <!-- Step 4 Board reviews with Elders -->
   <g filter="url(#card)">
     <rect x="932" y="220" width="250" height="160" rx="14" fill="#ffffff"/>
   </g>
@@ -83,7 +83,7 @@
   <circle cx="964" cy="260" r="15" fill="#0f172a"/>
   <text x="964" y="265" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff">4</text>
   <text x="990" y="255" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="1.2">STEP</text>
-  <text x="990" y="278" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Reviews with Elders</text>
+  <text x="990" y="278" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#0f172a">Board reviews with Elders</text>
   <text x="956" y="324" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#64748b">Elder evaluation</text>
 
   <!-- Fork after step 4: continue PATH A + drop to PATH D -->
@@ -97,12 +97,9 @@
   </g>
   <rect x="1254" y="200" width="5" height="200" rx="2.5" fill="#10b981"/>
   <text x="1282" y="240" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#059669" letter-spacing="1.2">PATH A · APPROVED</text>
-  <text x="1282" y="276" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#0f172a">Award Money</text>
+  <text x="1282" y="276" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Award Money + Ongoing Check-Ins</text>
   <text x="1282" y="316" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#64748b">Assign Sponsor / Board cadence</text>
   <text x="1282" y="340" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" fill="#64748b">of review meetings</text>
-
-  <!-- Decline row label -->
-  <text x="48" y="500" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#d97706" letter-spacing="1.5">DECLINE PATHS (UNDER PATH A)</text>
 
   <!-- PATH B under step 2 (centered on fork x=590) -->
   <g filter="url(#card)">
@@ -134,5 +131,5 @@
   <rect x="220" y="720" width="12" height="12" rx="2" fill="#f59e0b"/>
   <text x="240" y="731" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" fill="#64748b">Paths B–D (decline)</text>
 
-  <text x="48" y="820" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#94a3b8">Strasburg Baptist Church  ·  Planning team  ·  Working draft</text>
+  <text x="48" y="820" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#94a3b8">Strasburg Baptist Church  ·  Planning team  ·  Working draft 20260823</text>
 </svg>

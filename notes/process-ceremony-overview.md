@@ -16,8 +16,8 @@ Visual overview of the S&BSP process for ceremonies and presentations.
 1. Applications  
 2. Sponsor Meetings  
 3. Present to Board  
-4. Reviews with Elders  
-5. Approved / Award Money  
+4. Board reviews with Elders  
+5. Approved / Award Money + Ongoing Check-Ins  
 
 Plus the ongoing **Sponsor / Board Review** cadence (1st / 2nd / 3rd).
 
@@ -27,7 +27,7 @@ Plus the ongoing **Sponsor / Board Review** cadence (1st / 2nd / 3rd).
 |------|------|---------|
 | **PATH B** | After Sponsor Meetings | Sponsor Declines with Notes |
 | **PATH C** | After Present to Board | Board Declines with Notes |
-| **PATH D** | After Reviews with Elders | Elders Decline with Notes |
+| **PATH D** | After Board reviews with Elders | Elders Decline with Notes |
 
 ## Editing
 
